@@ -14,6 +14,9 @@
                         top: 40px;
                         right:40px;
                         bottom:40px}
+                .button {
+                    padding-left: 200px;
+                }
             .navigation .mainlogo{
                 float:left;
                height:40px;
