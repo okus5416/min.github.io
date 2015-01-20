@@ -89,3 +89,9 @@
             margin-left:auto;
             margin-right:auto;
             }
+            #AboutPic{
+            background-image:url('img/back.jpg');
+            }
+            .head2{
+            padding-left:50px;
+            }
