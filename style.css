@@ -60,10 +60,6 @@
                 bottom: 0px;
                 padding-top:0px;
             }
-.Tabs {
-    background-color: blue;
-}
-
             #project{
             background-image:url('img/background.jpg');
             background-attachment:fixed;
@@ -99,3 +95,4 @@
             .head2{
             padding-left:50px;
             }
+
