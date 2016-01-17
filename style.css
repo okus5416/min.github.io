@@ -1,0 +1,101 @@
+
+                body {
+                margin:0;
+                font:1em "Open Sans", sans-serif;
+                }
+
+                p {text-align:left;}
+                .bodypara{
+                font-size:1.5em;
+                }
+
+                .button {
+                    padding-left: 200px;
+                }
+            .navigation .mainlogo{
+                float:left;
+               height:40px;
+                padding 15px 30px;
+                font-size:1.0em;
+                line-height: 40px;
+                color: white;
+                font-size: 150%;
+                padding-left:20px;
+                padding-top:15px;
+
+            }
+
+            .navigation  ul{
+            margin:0;
+            padding:0;
+            }
+            .navigation  ul li{
+                list-style:none;
+                float:left;
+                display: block;
+                padding: 10px 20px;
+                color: white;
+                text-decoration: none;
+            }
+            .navigation ul a{
+                text-decoration: none;
+                float: left;
+                display: block;
+                padding: 10px 20px;
+                color: white;
+            }
+            .navigation  ul li  a:hover{
+                color: blue;
+
+            }
+
+
+            .footer {
+                background-color: black;
+                height: 20px;
+                width: 100%;
+                color: white;
+                clear:both;
+                position:fixed;
+                bottom: 0px;
+                padding-top:0px;
+            }
+.Tabs {
+    background-color: blue;
+}
+
+            #project{
+            background-image:url('img/background.jpg');
+            background-attachment:fixed;
+
+            }
+            #git {
+            padding-left:10px;
+            }
+            #min {
+            position: relative;
+
+            left:250px;
+            }
+            #nHeader{
+            height:300px;
+
+            }
+            #pic {
+            background-image:url('img/gradient.jpg');
+
+            }
+            #projectPic{
+            background-image:url('img/gradient3.jpg');
+
+            }
+            .head3 {
+            margin-left:auto;
+            margin-right:auto;
+            }
+            #AboutPic{
+            background-image:url('img/back.jpg');
+            }
+            .head2{
+            padding-left:50px;
+            }
