@@ -3,8 +3,17 @@
     <head>
     <meta charset="UTF-8">
         <title>MinKim95</title>
+        <scipt src= "http://code.jquery.com/jquery-2.2.0.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <link rel="shortcut icon" href = "https://cloud.githubusercontent.com/assets/10396134/5660463/8ac08672-96ee-11e4-9862-eedd315b0e22.png" type="image/png">
-        <link rel="stylesheet" type ="text/css" href="style.css"/>
+        <link rel="stylesheet" type ="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+        <script src ="js/jquery-ui.min.js"> </script>
         <link rel="stylesheet" type ="text/css" href="font-awesome-4.2.0/css/font-awesome.css"/>
         <link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/css/bootstrap.min.css"/>
     </head>
@@ -36,12 +45,37 @@
 <div class ="jumbotron" id="project">
        <div class ="container" id="projects">
           <div class="row">
-              <div class="button" id="git"><a href="https://github.com/okus5416"><button type= "button"><i class="fa fa-github fa-4x"></i></button></a></div>
+              
 
-               <h2>Website project with HTML5,CSS3, Bootstrap, and javascript</h2>
-               <h2>Board game project(Java)</h2>
-               <h2>Movie suggesting program(Java)</h2>
-               <h2>Robot Project, from University of Waterloo</h2>
+              <div id="Tabs">
+                  
+                  <ul>
+                      <li><a href="#Webdevelopment"> Web development </a></li>
+                      <li><a href="#SuperbSuggestion"> Superb Suggestion </a></li>
+                      <li><a href="#Coming Soon..."> Coming Soon... </a></li>
+                  </ul>
+                  
+                  <div id="Webdevelopment">
+                      Website project with HTML5, CSS3, jQuery, Bootstrap, and javascript
+                  </div>
+                  
+                  <div id="SuperbSuggestion">
+                      This project suggests users their favorite movies by comparing rates of users and
+                      existing rates of past users.
+                      Done with Java, which involves data base of all the users.
+                      
+                  </div>
+                  
+                  <div id="Coming Soon...">
+                      
+                  </div>
+                  
+
+                  
+               
+                        </div>
+               
+               
 
 
 
@@ -52,5 +86,22 @@
 
 
          <div class="footer"><center>Welcome to Min's personal webpage</center></div>
+         
+         <script type="text/javascript">
+             $(document).ready(function(){
+                               
+                               $("#Tabs").tabs({
+                                               event: "click",
+                                               show: "fadeIn",
+                                               hide: "fadeOut",
+                                               active: 3,
+                                               collapsible: true,
+                                               heightStyle: "content"
+                               
+                                               });
+                               
+                               
+                               });
+                               </script>
     </body>
 </html>
