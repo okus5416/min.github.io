@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
         <title>MinKim95</title>
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel='stylesheet' type='text/css'>
         <script src="jquery-1.11.3.min.js"></script>
         <scipt src= "http://code.jquery.com/jquery-2.2.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -45,26 +46,43 @@
 
 
 <div id= "introduce">
-       <div class="head2">
-        <h2>About Me!</h2>
+       <div id="header3">
+        <h3>About Me!</h3>
            </div>
        
 
-<pre><font face="Comic sans MS" size="5">       Hello, This is Min! I am currently attending University of Waterloo
+<pre>       Hello, This is Min! I am currently attending University of Waterloo
         as a computer science student. I developed different skills throughout high school and university years
         and I really love to solve complex problems which demand hard works and good amount of time.
         I have a lof of interests in developing software with various programming
-        languages and tools. I am capable of adapting new skills very quickly and I am dreaming of becoming
-        a professional programmer.
+        languages and tools. I am capable of adapting new skills very quickly and I am dreaming of becoming a professional programmer.</pre>
+</div>
 
-        I have plenty of programming skills with different programming languages, such
+<div id= "introduce2">
+    <div id="header3">
+        <h3>Skills</h3>
+        </div>
+    
+    <pre>I have plenty of programming skills with different programming languages, such
         as C,C++, python, visual basics, and Java.
         I am also capable of developing web with HTML5/CSS3, using bootstrap, font-awesome, and
         javascript. I am also pursuing to learn about mobile apps
-        so that I can further my skills in the field of software engineering.
-        
-        I am multilingual, capable of speaking two different languages; English and Korean.</font></pre>
-</div>
+        so that I can further my skills in the field of computer science.
+        </pre>
+    </div>
+
+<div id="introduce3">
+    <div id="header3">
+        <h3>Interests</h3>
+        </div>
+    
+    <pre> I love to play various types of musical instruments, such as piano, trunmpet, and flute.
+        I also love to play sports like soccer, softball and frisbee.
+        </pre>
+    </div>
+
+
+
 
         <div class="footer"><center>Welcome to Min's personal webpage</center></div>
         
@@ -81,6 +99,22 @@
                                                         heightStyle: "content"
                               
                                                         });
+                              $("#introduce2").accordion({
+                                                        animate: 1500,
+                                                        active: 1,
+                                                        collapsible: true,
+                                                        event: "click",
+                                                        heightStyle: "content"
+                                                        
+                                                        });
+                              $("#introduce3").accordion({
+                                                         animate: 1500,
+                                                         active: 1,
+                                                         collapsible: true,
+                                                         event: "click",
+                                                         heightStyle: "content"
+                                                         
+                                                         });
                               
                               
                               
