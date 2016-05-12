@@ -52,7 +52,7 @@
      <div class="container">
          <div class="row">
              <div class="page-header">
-             <h1> Home Page <small>Min's web page</small><h1>
+             <h1> Home Page <small><div class="subtitle">Min's web page</div></small><h1>
              <h2>Feel free to look around!</h2>
                  </div>
          </div>
@@ -95,17 +95,22 @@
          
      </div>
 </div>
+
+
 </center>
 
 
 
         <div class="footer"><center>Welcome to Min's personal webpage</center></div>
         <script>
+            
             $(document).ready(function() {
                               
                               $("h1").fadeToggle(1000).fadeToggle(1000);
                               $("h2").fadeToggle(1000).fadeToggle(1000);
-                              
+                              $(".subtitle").click(function(){
+                                                   $(".subtitle").text("Done by jQuery!");
+                                                   });
                               
                               
                               });
