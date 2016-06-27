@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
         <title>MinKim95</title>
-        
+
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel='stylesheet' type='text/css'>
         <scipt src= "http://code.jquery.com/jquery-2.2.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/css/bootstrap.min.css"/>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-            
+
             <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
         <script type ="text/javascript" src="jquery.js"></script>
@@ -33,11 +33,11 @@
                 </div>
                 <nav class="navigation">
             <ul>
-                <li><a class ="home" href="http://min95.com/index.html">Home</a></li><!--http://min95.com -->
-                <li><a class ="about" href="http://min95.com/aboutme.html">About me</a></li>
+                <li><a class ="home" href="http://min95.com/index.php">Home</a></li><!--http://min95.com -->
+                <li><a class ="about" href="http://min95.com/aboutme.php">About me</a></li>
                 <li><a class ="resume" href="resume.pdf" target = "_blank">Resume</a></li>
-                <li><a class ="project" href="http://min95.com/projects.html">Projects</a></li>
-                <li><a class ="contact" href="http://min95.com/contact.html">Contact</a></li> <!--I want this at the side of the page-->
+                <li><a class ="project" href="http://min95.com/projects.php">Projects</a></li>
+                <li><a class ="contact" href="http://min95.com/contact.php">Contact</a></li> <!--I want this at the side of the page-->
             </ul>
            </nav>
             </div>
@@ -46,7 +46,7 @@
     <div class="jumbotron jColor1" id="pic">
 
             <div class ="minpic" id="min">
-      <a href="http://min95.com/index.html"><img src="img/minsuk.jpg" class ="img-circle" alt="Picture of Min" style ="width:200px;height:200px"></a>
+      <a href="http://min95.com/index.php"><img src="img/minsuk.jpg" class ="img-circle" alt="Picture of Min" style ="width:200px;height:200px"></a>
             </div>
 
         </div>
@@ -58,7 +58,7 @@
                  </div>
          </div>
      </div>
-     
+
      <center>
      <div class="containter">
      <div class="row">
@@ -69,7 +69,7 @@
              <a href="http://github.com/okus5416/min.github.io" class="thumbnail">
                  <img src="img/Octocat.jpg" alt="githubmark">
                      </a>
-            
+
          </div>
          <div class="col-md-4">
              <div class ="header3">
@@ -78,9 +78,9 @@
              <a href="http://github.com/okus5416/ScribblerBot" class="thubnail">
                  <img src="img/scribbler2.jpg" alt="scribblerbot">
                      </a>
-             
+
         </div>
-         
+
          <div class="col-md-4">
              <div class="header3">
              <h3>Board-Game with OOP </h3>
@@ -88,12 +88,12 @@
              <a href="http://github.com/okus5416/Board-Game" class="thumbnail">
                  <img src="img/becker.jpg" alt="boardgame">
                      </a>
-             
-        </div>
-        
 
-         
-         
+        </div>
+
+
+
+
      </div>
 </div>
 
@@ -104,10 +104,10 @@
 
         <div class="footer"><center>Welcome to Min's personal webpage</center></div>
 
-                              
-         
 
-            
-           
+
+
+
+
                     </body>
 </html>

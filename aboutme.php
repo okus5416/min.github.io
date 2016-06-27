@@ -7,7 +7,7 @@
         <script src="jquery-1.11.3.min.js"></script>
         <scipt src= "http://code.jquery.com/jquery-2.2.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-            
+
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -27,11 +27,11 @@
            </div>
        <nav class="navigation">
             <ul>
-                <li><a class ="home" href="http://min95.com/index.html">Home</a></li><!--http://min95.com -->
-                <li><a class ="about" href="http://min95.com/aboutme.html">About me</a></li>
+                <li><a class ="home" href="http://min95.com/index.php">Home</a></li><!--http://min95.com -->
+                <li><a class ="about" href="http://min95.com/aboutme.php">About me</a></li>
                 <li><a class ="resume" href="resume.pdf" target = "_blank">Resume</a></li>
-                <li><a class ="project" href="http://min95.com/projects.html">Projects</a></li>
-                <li><a class ="contact" href="http://min95.com/contact.html">Contact</a></li> <!--I want this at the side of the page-->
+                <li><a class ="project" href="http://min95.com/projects.php">Projects</a></li>
+                <li><a class ="contact" href="http://min95.com/contact.php">Contact</a></li> <!--I want this at the side of the page-->
             </ul>
            </nav>
             </div>
@@ -40,7 +40,7 @@
     <div class="jumbotron" id="AboutPic">
 
             <div class ="minpic" id="min">
-      <a href="http://min95.com/index.html"><img src="img/minsuk.jpg" class ="img-circle" alt="Picture of Min" style ="width:200px;height:200px"></a>
+      <a href="http://min95.com/index.php"><img src="img/minsuk.jpg" class ="img-circle" alt="Picture of Min" style ="width:200px;height:200px"></a>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
        <div id="header3">
         <h3>About Me!</h3>
            </div>
-       
+
 
 <pre>       Hello, This is Min! I am currently attending University of Waterloo
         as a computer science student. I developed different skills throughout high school and university years
@@ -62,7 +62,7 @@
     <div id="header3">
         <h3>Skills</h3>
         </div>
-    
+
     <pre>I have plenty of programming skills with different programming languages, such
         as C,C++, python, visual basics, and Java.
         I am also capable of developing web with HTML5/CSS3, using bootstrap, font-awesome, and
@@ -75,7 +75,7 @@
     <div id="header3">
         <h3>Interests</h3>
         </div>
-    
+
     <pre> I love to play various types of musical instruments, such as piano, trunmpet, and flute.
         I also love to play sports like soccer, softball and frisbee.
         </pre>
@@ -86,19 +86,19 @@
 
 
         <div class="footer"><center>Welcome to Min's personal webpage</center></div>
-        
-        
+
+
         <script type= "text/javascript">
-            
+
             $(document).ready(function(){
-                              
+
                               $("#introduce").accordion({
                                                         animate: 1500,
                                                         active: 1,
                                                         collapsible: true,
                                                         event: "click",
                                                         heightStyle: "content"
-                              
+
                                                         });
                               $("#introduce2").accordion({
                                                         animate: 1500,
@@ -106,7 +106,7 @@
                                                         collapsible: true,
                                                         event: "click",
                                                         heightStyle: "content"
-                                                        
+
                                                         });
                               $("#introduce3").accordion({
                                                          animate: 1500,
@@ -114,15 +114,15 @@
                                                          collapsible: true,
                                                          event: "click",
                                                          heightStyle: "content"
-                                                         
+
                                                          });
                               $("#body").fadeToggle(1000).fadeToggle(1000);
-                              
-                              
-                              
-                              
+
+
+
+
                               }); //end of jQuery
         </script>
-            
+
     </body>
 </html>
